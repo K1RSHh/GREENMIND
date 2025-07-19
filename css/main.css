@@ -43,9 +43,12 @@ a {
   display: flex;
 }
 
+.icon__link-svg {
+  transition: 0.3s;
+}
+
 .icon__link-svg:hover {
   scale: 1.1;
-  transition: 0.3s;
 }
 
 .navbar {
@@ -56,11 +59,11 @@ a {
 
 .navbar__link-text {
   opacity: 0.4;
+  transition: all 0.2s;
 }
 
 .navbar__link-text:hover {
   scale: 1.04;
-  transition: all 0.2s;
 }
 
 .navbar__link-text-active {
@@ -77,9 +80,12 @@ a {
   gap: 48px;
 }
 
+.user__menu-link {
+  transition: all 0.3s;
+}
+
 .user__menu-link:hover {
   scale: 1.1;
-  transition: all 0.3s;
 }
 
 .user__menu-link-active path {
@@ -163,11 +169,11 @@ a {
   width: 45px;
   cursor: pointer;
   background-position: center;
+  transition: all 0.4s;
 }
 
 .box:hover {
   scale: 1.1;
-  transition: all 0.4s;
 }
 
 .image-stack {
@@ -235,16 +241,14 @@ a {
   width: 173px;
   height: 51px;
   border-radius: 8px;
-  font-size: 18px;
-  font-weight: 500;
   border: 2px solid transparent;
+  transition: all 0.4s ease-in-out;
 }
 
 .best__selling-more-btn:hover {
   border: 2px solid #1e1e1e;
   background-color: rgba(193, 220, 220, 0.5);
   border-radius: 12px;
-  transition: all 0.4s;
 }
 
 .best__selling-more-text {
@@ -290,11 +294,74 @@ a {
 
 .best__selling-card-text:hover {
   text-decoration: underline;
+  transition: all 0.5s;
 }
 
 .best__selling-card-price {
   font-size: 18px;
   font-weight: 500;
   margin-top: 13px;
+  opacity: 0.5;
+}
+
+.about {
+  margin-bottom: 175px;
+}
+
+.about__inner {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.about__inner-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.about__inner-text {
+  font-size: 18px;
+  font-weight: 500;
+  opacity: 0.5;
+  margin-bottom: 50px;
+}
+
+.about__info {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.about__info-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  max-width: 400px;
+  max-height: 213px;
+}
+
+.about__info-card-svg {
+  display: flex;
+  background-color: #c1dcdc;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 96px;
+  height: 96px;
+  margin-bottom: 24px;
+}
+
+.about__info-card-title {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+
+.about__info-card-text {
+  font-size: 18px;
+  font-weight: 500;
   opacity: 0.5;
 }
