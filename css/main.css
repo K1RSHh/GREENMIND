@@ -2,6 +2,7 @@ body {
   padding: 10px;
   font-family: "Poppins", sans-serif;
   color: #1e1e1e;
+  overflow-x: hidden;
 }
 
 a {
@@ -367,6 +368,7 @@ a {
 }
 
 .categories__grid-container {
+  padding: 0;
   max-width: 100%;
   background-color: #c1dcdc;
   padding-bottom: 100px;
