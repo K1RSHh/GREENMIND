@@ -1,5 +1,4 @@
 body {
-  padding: 10px;
   font-family: "Poppins", sans-serif;
   color: #1e1e1e;
   overflow-x: hidden;
@@ -8,6 +7,12 @@ body {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .poppins-medium {
@@ -462,6 +467,7 @@ a {
 
 .slider__customers {
   display: flex;
+  padding-left: 100px;
 }
 
 .title-pagination {
@@ -556,4 +562,99 @@ a {
   position: relative !important;
   top: 100px !important;
   left: 450px !important;
+}
+
+.footer {
+  background-color: #c1dcdc;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.footer__items {
+  display: grid;
+  max-width: 164px;
+}
+
+.footer__logo {
+  margin-bottom: 27px;
+}
+
+.footer__logo-link-svg {
+  transition: all 0.3s;
+}
+
+.footer__logo-link-svg:hover {
+  scale: 1.1;
+}
+
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__item-text {
+  margin-bottom: 25px;
+  font-size: 18px;
+  font-weight: 500;
+  opacity: 0.5;
+}
+
+.footer__item-svg {
+  display: flex;
+  gap: 24px;
+}
+
+.svg__container {
+  display: flex;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 1px solid #1e1e1e;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+}
+
+.svg__container:hover {
+  scale: 1.04;
+  background-color: rgba(193, 220, 220, 0.5);
+  transition: all 0.3s;
+}
+
+.footer__user-nav {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 35px;
+}
+
+.footer__user-nav-card {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.footer__user-nav-title:hover {
+  text-decoration: underline;
+}
+
+.footer__user-nav-text:hover {
+  text-decoration: underline;
+}
+
+.footer__user-nav-title {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.footer__user-nav-text {
+  font-size: 18px;
+  font-weight: 400;
+  opacity: 0.5;
+}
+
+.footer__term {
+  margin-top: 100px;
+  font-size: 18px;
+  font-weight: 500;
+  opacity: 0.5;
 }
