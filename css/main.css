@@ -1,0 +1,300 @@
+body {
+  padding: 10px;
+  font-family: "Poppins", sans-serif;
+  color: #1e1e1e;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.container {
+  max-width: 1248px;
+  margin: 0 auto;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 34px;
+  margin-bottom: 48px;
+}
+
+.header__nav {
+  display: flex;
+}
+
+.icon__link-svg:hover {
+  scale: 1.1;
+  transition: 0.3s;
+}
+
+.navbar {
+  display: flex;
+  padding-left: 96px;
+  gap: 48px;
+}
+
+.navbar__link-text {
+  opacity: 0.4;
+}
+
+.navbar__link-text:hover {
+  scale: 1.04;
+  transition: all 0.2s;
+}
+
+.navbar__link-text-active {
+  opacity: 1;
+  scale: 1.04;
+}
+
+.navbar__link-text-active:hover {
+  scale: 1.08;
+}
+
+.user__menu {
+  display: flex;
+  gap: 48px;
+}
+
+.user__menu-link:hover {
+  scale: 1.1;
+  transition: all 0.3s;
+}
+
+.user__menu-link-active path {
+  fill: #c1dcdc;
+}
+
+.search__inner {
+  display: flex;
+  width: 1248px;
+  height: 512px;
+  background-color: #c1dcdc;
+  border-radius: 24px;
+}
+
+.search__top {
+  max-width: 450px;
+  max-height: 227px;
+  padding-top: 48px;
+  padding-left: 48px;
+}
+
+.search__title {
+  font-weight: 800;
+  font-size: 64px;
+  margin-bottom: 24px;
+}
+
+.search__top-info {
+  display: flex;
+  gap: 45px;
+  margin-bottom: 50px;
+}
+
+.border-text {
+  border-right: 1px solid #1e1e1e;
+  padding-right: 45px;
+}
+
+.search__top-text {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.search__top-text-sp {
+  font-size: 32px;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+
+.search__area {
+  position: absolute;
+}
+
+.search__input {
+  position: absolute;
+  width: 380px;
+  padding: 20px 20px;
+  padding-right: 60px;
+  border: none;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.search_input::placeholder {
+  opacity: 0.5;
+}
+
+.box {
+  position: absolute;
+  background: url(/img/search.svg);
+  background-repeat: no-repeat;
+  margin-left: 435px;
+  background-color: #c1dcdc;
+  border-radius: 12px;
+  left: -30px;
+  margin-top: 8px;
+  height: 45px;
+  width: 45px;
+  cursor: pointer;
+  background-position: center;
+}
+
+.box:hover {
+  scale: 1.1;
+  transition: all 0.4s;
+}
+
+.image-stack {
+  display: flex;
+  position: relative;
+}
+
+.black__back {
+  position: absolute;
+  bottom: 0;
+  right: 75px;
+}
+
+.plant {
+  position: absolute;
+  bottom: 0;
+  right: 75px;
+}
+
+.arrows__1 {
+  position: absolute;
+  bottom: 100px;
+  right: 540px;
+}
+
+.arrows__2 {
+  position: absolute;
+  bottom: 315px;
+  right: 30px;
+}
+
+.best__selling-inner {
+  display: flex;
+  margin-top: 100px;
+}
+
+.best__selling-top {
+  max-width: 196px;
+  max-height: 264px;
+  margin-right: 60px;
+}
+
+.best__selling-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  line-height: 1.3;
+}
+
+.best__selling-text {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.3;
+  opacity: 0.5;
+  margin-bottom: 25px;
+}
+
+.best__selling-more-btn {
+  background-color: #c1dcdc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: none;
+  width: 173px;
+  height: 51px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 500;
+  border: 2px solid transparent;
+}
+
+.best__selling-more-btn:hover {
+  border: 2px solid #1e1e1e;
+  background-color: rgba(193, 220, 220, 0.5);
+  border-radius: 12px;
+  transition: all 0.4s;
+}
+
+.best__selling-more-text {
+  display: flex;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.btn__arrow {
+  display: flex;
+  padding-top: 3px;
+  width: 28px;
+  height: 24px;
+  padding-left: 10px;
+}
+
+.best__selling-cards {
+  display: flex;
+}
+
+.best__selling-cards {
+  display: flex;
+  margin-bottom: 101px;
+  gap: 48px;
+}
+
+.best__selling-card-img {
+  border-radius: 12px;
+  transition: all 0.3s;
+}
+
+.best__selling-card-img:hover {
+  scale: 1.1;
+  border: 1px solid #1e1e1e;
+  margin-bottom: 13px;
+}
+
+.best__selling-card-text {
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 12px;
+}
+
+.best__selling-card-text:hover {
+  text-decoration: underline;
+}
+
+.best__selling-card-price {
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 13px;
+  opacity: 0.5;
+}
