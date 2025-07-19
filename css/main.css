@@ -152,7 +152,7 @@ a {
 
 .box {
   position: absolute;
-  background-image: url(/img/search.svg);
+  background-image: url(../img/search.svg);
   background-repeat: no-repeat;
   margin-left: 435px;
   background-color: #c1dcdc;
