@@ -211,6 +211,10 @@ a {
   right: 30px;
 }
 
+.best__selling {
+  max-height: 528px;
+}
+
 .best__selling-inner {
   display: flex;
   margin-top: 100px;
@@ -269,10 +273,6 @@ a {
   width: 28px;
   height: 24px;
   padding-left: 10px;
-}
-
-.best__selling-cards {
-  display: flex;
 }
 
 .best__selling-cards {
